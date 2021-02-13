@@ -1,0 +1,111 @@
+<!DOCTYPE html> 
+<html lang="fr"> 
+<head> 
+  <title> welcome to Rachify</title> 
+ 
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+  <link rel="stylesheet" 
+        href= "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ 
+</head> 
+<body> 
+  <div class="player"> 
+  
+    <div class="details"> 
+      <div class="now-playing">PLAYING x OF y</div> 
+      <div class="track-art"></div> 
+      <div class="track-name">Track Name</div> 
+      <div class="track-artist">Track Artist</div> 
+    </div> 
+  
+  
+    <div class="buttons"> 
+      <div class="prev-track" onclick="prevTrack()"> 
+        <i class="fa fa-step-backward fa-2x"></i> 
+      </div> 
+      <div class="playpause-track" onclick="playpauseTrack()"> 
+        <i class="fa fa-play-circle fa-5x"></i> 
+      </div> 
+      <div class="next-track" onclick="nextTrack()"> 
+        <i class="fa fa-step-forward fa-2x"></i> 
+      </div> 
+    </div> 
+  
+   
+    <div class="slider_container"> 
+      <div class="current-time">00:00</div> 
+      <input type="range" min="1" max="100"
+        value="0" class="seek_slider" onchange="seekTo()"> 
+      <div class="total-duration">00:00</div> 
+    </div> 
+  
+    <div class="slider_container"> 
+      <i class="fa fa-volume-down"></i> 
+      <input type="range" min="1" max="100"
+        value="99" class="volume_slider" onchange="setVolume()"> 
+      <i class="fa fa-volume-up"></i> 
+    </div> 
+
+    <table class="list">
+        <tr class="song">
+            <td class="nr"><h5>1</h5></td>
+            <td class="title"><h6 > Emmenez-moi </h6></td>
+            <td class="length"><h5>3:38</h5></td>
+        </tr>
+        
+
+        <tr class="song">
+            <td class="nr"><h5>2</h5></td>
+            <td class="title"><h6>Belle</h6></td>
+            <td class="length"><h5>5:00</h5></td>
+            </tr>
+
+
+        <tr class="song">
+            <td class="nr"><h5>3</h5></td>
+            <td class="title"><h6>Les feuilles mortes</h6></td>
+            <td class="length"><h5>4:25</h5></td>
+
+        </tr>
+
+
+        <tr class="song">
+            <td class="nr"><h5>4</h5></td>
+            <td class="title"><h6>Non je ne regrette rien</h6></td>
+            <td class="length"><h5>2:22</h5></td>
+        </tr>
+
+
+        <tr class="song">
+            <td class="nr"><h5>5</h5></td>
+            <td class="title"><h6>La Boheme"</h6></td>
+            <td class="length"><h5>4:04</h5></td>
+        </tr>
+
+        <tr class="song">
+            <td class="nr"><h5>6</h5></td>
+            <td class="title"><h6>Thriller</h6></td>
+            <td class="length"><h5>2:42</h5></td>
+        </tr>
+
+        <tr class="song">
+          <td class="nr"><h5>7</h5></td>
+          <td class="title"><h6>Can-you-feel-the-love-tonight</h6></td>
+          <td class="length"><h5>4:06</h5></td>
+      </tr>
+      <tr class="song">
+        <td class="nr"><h5>8</h5></td>
+        <td class="title"><h6>My-heart-will-go-on</h6></td>
+        <td class="length"><h5>4:35</h5></td>
+    </tr>
+    </table>
+
+  
+    </div> 
+
+  <script src="spotify.js"></script> 
+</body> 
+</html> 
