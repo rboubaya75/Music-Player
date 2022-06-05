@@ -63,6 +63,36 @@ let track_list = [
     image: "images/Mickel_jackson.jpg", 
     path: "mp3/michael-jackson-thriller.mp3", 
   }, 
+ 
+  { 
+  name: "Destinée", 
+  artist: "BOOBA", 
+  image: "images/elton_john.jpg", 
+  path: "mp3/Destinee.mp3",
+  }, 
+ 
+   { 
+  name: "Lion King Eng", 
+  artist: "Lion King", 
+  image: "images/elton_john.jpg", 
+  path: "mp3/carmen-twillie-circle-of-life--the-lion-king.mp3",
+  }, 
+  
+     { 
+  name: "Lion King Span", 
+  artist: "Lion King", 
+  image: "images/elton_john.jpg", 
+  path: "mp3/carmen-twillie-circle-of-life--the-lion-king.mp3",
+  }, 
+  
+  
+  { 
+  name: "Qui est l'exemple", 
+  artist: "ROHFF", 
+  image: "images/elton_john.jpg", 
+  path: "mp3/Qui_est_l_exemple_.mp3",
+
+}, 
   { 
     name: "Can you feel the love tonight", 
     artist: "Elton John", 
