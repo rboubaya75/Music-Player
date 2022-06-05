@@ -72,7 +72,7 @@ let track_list = [
     artist: "Lion King", 
     path: "mp3/carmen-twillie-circle-of-life--the-lion-king.mp3",
   }, 
- { 
+  { 
     name: "Lion King Span", 
     artist: "Lion King", 
     path: "mp3/ciclo-sem-fimnants-ingonyama-de-o-rei-leao-the-lion-kingaudio-only.mp3",
