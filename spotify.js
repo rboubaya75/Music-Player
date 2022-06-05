@@ -49,7 +49,6 @@ let track_list = [
     path: "mp3/edith-piaf-non-je-ne-regrette-rien.mp3",
 
   }, 
-
   { 
     name: "La Boheme", 
     artist: "Charles Aznavour", 
@@ -63,26 +62,21 @@ let track_list = [
     image: "images/Mickel_jackson.jpg", 
     path: "mp3/michael-jackson-thriller.mp3", 
   }, 
- 
   { 
     name: "Destinée", 
     artist: "BOOBA", 
     path: "mp3/Destinee.mp3",
   }, 
- 
   { 
     name: "Lion King Eng", 
     artist: "Lion King", 
     path: "mp3/carmen-twillie-circle-of-life--the-lion-king.mp3",
   }, 
-  
  { 
     name: "Lion King Span", 
     artist: "Lion King", 
     path: "mp3/ciclo-sem-fimnants-ingonyama-de-o-rei-leao-the-lion-kingaudio-only.mp3",
   }, 
-  
-  
   { 
     name: "Qui est l'exemple", 
     artist: "ROHFF", 
