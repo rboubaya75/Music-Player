@@ -65,34 +65,30 @@ let track_list = [
   }, 
  
   { 
-  name: "Destinée", 
-  artist: "BOOBA", 
-  image: "images/elton_john.jpg", 
-  path: "mp3/Destinee.mp3",
+    name: "Destinée", 
+    artist: "BOOBA", 
+    path: "mp3/Destinee.mp3",
   }, 
  
-   { 
-  name: "Lion King Eng", 
-  artist: "Lion King", 
-  image: "images/elton_john.jpg", 
-  path: "mp3/carmen-twillie-circle-of-life--the-lion-king.mp3",
+  { 
+    name: "Lion King Eng", 
+    artist: "Lion King", 
+    path: "mp3/carmen-twillie-circle-of-life--the-lion-king.mp3",
   }, 
   
-     { 
-  name: "Lion King Span", 
-  artist: "Lion King", 
-  image: "images/elton_john.jpg", 
-  path: "mp3/carmen-twillie-circle-of-life--the-lion-king.mp3",
+ { 
+    name: "Lion King Span", 
+    artist: "Lion King", 
+    path: "mp3/carmen-twillie-circle-of-life--the-lion-king.mp3",
   }, 
   
   
   { 
-  name: "Qui est l'exemple", 
-  artist: "ROHFF", 
-  image: "images/elton_john.jpg", 
-  path: "mp3/Qui_est_l_exemple_.mp3",
+    name: "Qui est l'exemple", 
+    artist: "ROHFF", 
+    path: "mp3/Qui_est_l_exemple_.mp3",
 
-}, 
+  }, 
   { 
     name: "Can you feel the love tonight", 
     artist: "Elton John", 
